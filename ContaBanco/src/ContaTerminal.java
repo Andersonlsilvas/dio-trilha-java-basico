@@ -23,6 +23,8 @@ public class ContaTerminal {
         System.out.print("Digite o Saldo: R$ ");
         saldo = sc.nextDouble();
 
+
+        // Exibir a mensagem conta Criada
         System.out.println();
         System.out.print("Ola " + nomeCliente + ", obrigado por criar uma conta em nosso banco, ");
         System.out.println("sua agencia é " + agencia + ", conta " + numero + " e seu saldo de R$ " + saldo + " já esta disponivel para saque" );
@@ -30,8 +32,8 @@ public class ContaTerminal {
 
 
 
-        // Exibir a mensagem conta Criada
       
+      sc.close();
     }
 }
 
